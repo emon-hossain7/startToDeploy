@@ -5,7 +5,7 @@ start To Deploy
 List of startToDeploy:
 
 - [netlifyDeploy](#netlifyDeploy)
-- [ArrowFunction](#ArrowFunction)
+- [netlify404](#netlify404)
 
 
 ### netlifyDeploy
@@ -20,6 +20,17 @@ $ npm run build
 // if you want modifie root file (then again command run)
 $ npm run build
 // open netlify project then drag and drop netlify project update
+
+```
+
+### netlify404
+
+```js
+// step 1 
+create _redirects in public folder  
+//step 2
+open _redirects file paste it
+/* /index.html 200
 
 ```
 
